@@ -1,6 +1,8 @@
 
 public class Card {
+    // contains a value from 2-14 representing cards 2-Ace
     private int value;
+    // contains name of the card e.g. Ace of Diamonds, or Two of Hearts.
     private String name;
 
     public Card() {}

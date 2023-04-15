@@ -23,12 +23,12 @@ public class Deck {
             }
         }
     }
-
+    // randomizes the order of the cards
     public void shuffle() {
         Collections.shuffle(this.cards);
        
     }
-
+    // removes and returns the top card of the Cards field
     public Card draw() {
         if (this.cards.size() == 0) {
             return null;
